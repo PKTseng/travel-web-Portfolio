@@ -83,17 +83,19 @@
      right: 10px;
  }
 
- .logo{
-     position: absolute;
-    width: 50px;
-    height: 50px;
-     top: 0;
-     right: 0;
-     margin: auto;
-     background-position: center;
-     background-size: contain;
- }
+.text-center{
+    text-align: center !important;
+}
 
- .navbar-logo{
-     position: relative;
- }
+.footer-info{
+    font-size: 1.7rem;
+}
+
+.bg-color{
+    color: #FF8040;
+}
+
+.bg-dark{
+    background-color:#FF9D6F !important;
+}
+	

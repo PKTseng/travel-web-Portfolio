@@ -98,4 +98,9 @@
 .bg-dark{
     background-color:#FF9D6F !important;
 }
+
+.login-container-width{
+    max-width: 500px; 
+    margin-top: 20vh;
+}
 	

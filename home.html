@@ -31,7 +31,7 @@
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0 ml-auto">
-                        <a href="/login.html" class="btn btn-outline-primary mr-1">登入</a>
+                        <a href="/login.html" class="btn btn-outline-primary mr-1 btn_login">登入</a>
                     </form>
                 </div>
         </div>
@@ -39,13 +39,12 @@
 
 
     <header>
-       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" >
+       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="3000">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             </ol>
-
             <div class="carousel-inner ">
                 <div class="carousel-item header-carousel-item-1 active bg-cover"></div>
                 <div class="carousel-item header-carousel-item-2 bg-cover">
@@ -734,10 +733,12 @@
 </footer>
 
 <!-- ----------------------------------------------------購物車--------------------------------------- -->
- <!-- <div class="dropdown">
-    <button class="btn  btn-cart dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fas fa-cart-plus fa-2x"></i>
-        <span class="badge badge-danger">2</span>
+ <div class="cart-dropdown">
+    <button class="btn  btn-cart dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a href="" class="icon-cart">
+            <i class="fas fa-cart-plus fa-4x btn-cart"></i>
+            <span class="badge badge-danger">2</span>
+        </a>
     </button>
     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton" 
             style="min-width: 300px;">
@@ -770,11 +771,12 @@
             <a href="shoppingCart-checkout.html" class="btn btn-primary btn-block">結帳去</a>
         </div>
     </div>
-</div> -->
+</div>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="/JavaScript/home.js"></script>
   </body>
 </html>

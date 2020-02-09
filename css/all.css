@@ -103,4 +103,10 @@
     max-width: 500px; 
     margin-top: 20vh;
 }
-	
+
+.cart-dropdown{
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+}
+

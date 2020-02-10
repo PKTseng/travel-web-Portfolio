@@ -1,7 +1,7 @@
-var login = document.querySelector('.btn_login');
+// var login = document.querySelector('.btn_login');
 
-login.addEventListener('click',
-    function(){
-        alert('登入帳號');
-    }
-)
+// login.addEventListener('click',
+//     function(){
+//         alert('登入帳號');
+//     }
+// )
